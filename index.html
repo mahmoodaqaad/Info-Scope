@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoScape</title>
+    <link rel="icon" href="imgs/icon.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700&family=Jomhuria&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;700&family=Quicksand:wght@400;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700&family=Jomhuria&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;700&family=Quicksand:wght@400;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700&family=Jomhuria&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Sart setting box  -->
+    <div class="setting-box">
+        <div class="toggle-setting">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </div>
+        <div class="setting-container">
+            <p> Testing Options </p>
+            <div class="option-box color">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="ff9900"></li>
+                    <li data-color="e91e39"></li>
+                    <li data-color="009688"></li>
+                    <li data-color="03a9f4"></li>
+                    <li data-color="9616e6"></li>
+                </ul>
+
+
+            </div>
+            <div class="option-box background">
+                <h4>Random Background</h4>
+
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no" data-background="no">NO</span>
+
+            </div>
+            <div class="option-box bullets ">
+                <h4>Show Nav Bullets</h4>
+
+                <span class="yes active" data-show="yes">Yes</span>
+                <span class="no" data-show="no">NO</span>
+            </div>
+            <div class="option-box font ">
+                <h4>Choose your font</h4>
+                <ul>
+                    <li class="active" data-font="'Open Sans', sans-serif">Open Sans</li>
+                    <li class="" data-font="serif">serif</li>
+                    <li class="" data-font="Arial, Helvetica, sans-serif">Arial</li>
+                    <li class="" data-font="'Cairo', sans-serif">Cairo</li>
+                    <li class="" data-font="'Quicksand', sans-serif">Quicksand</li>
+                </ul>
+            </div>
+            <div class="restart">Reset</div>
+        </div>
+    </div>
+    </div>
+    <!-- end setting box  -->
+    <!-- start nav bulets  -->
+    <div class="nav-bullets active">
+        <div class="bullet" data-secion=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-secion=".our-skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-secion=".gallery">
+            <div class="tooltip">Gallery</div>
+        </div>
+        <div class="bullet" data-secion=".timeLine">
+            <div class="tooltip">Time Line</div>
+        </div>
+        <div class="bullet" data-secion=".feature">
+            <div class="tooltip">Feature</div>
+        </div>
+        <div class="bullet" data-secion=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+    </div>
+    <!-- end nav bulets  -->
+
+    <!-- Strat landing page  -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="header-area">
+            <div class="logo">Mahmood Aqqad</div>
+            <div class="container-manu">
+                <ul class="links">
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#our-skills">Our Skills</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#Feature">Feature</a></li>
+                    <li><a href="#">Conect Us</a></li>
+                </ul>
+            </div>
+            <div class="toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="intoduction-text">
+                <h1>Welcome to my humble site <span>InfoScape</span></h1>
+                <p>This site has been created recently, I hope you like it. This site contains several sections. A
+                    successful tour of the site.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end landing page  -->
+    <!-- start about us  -->
+    <div class="about-us" id="about-us">
+        <h2 class="main-heading">About <span>Us</span></h2>
+        <div class="container">
+            <div class="info">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim unde eos possimus hic! Quos fugiat
+                    minima
+                    blanditiis cumque impedit expedita, beatae architecto sunt corporis asperiores modi consequatur quam
+                    neque eaque!</p>
+            </div>
+            <div class="image-box">
+                <img src="imgs/aboutus009688.png" data-images="009688" alt="">
+                <img src="imgs/aboutus03a9f4.png" data-images="03a9f4" alt="">
+                <img src="imgs/aboutus9616e6.png" data-images="9616e6" alt="">
+                <img src="imgs/aboutuse91e39.png" data-images="e91e39" alt="">
+                <img src="imgs/aboutusff9900.png" data-images="ff9900" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- end about us  -->
+    <!-- start our-skills  -->
+    <div class="spikes"></div>
+
+    <div class="our-skills" id="our-skills">
+        <h2 class="main-heading">our <span>Skills</span></h2>
+        <div class="container">
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-width="90" style="width:00%" class="rate">
+                        <span class="num"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-width="80" style="width:00%" class="rate">
+                        <span class="num"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-progress">
+                    <span data-width="60" style="width:00%" class="rate">
+                        <span class="num"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">JAVA</div>
+                <div class="skill-progress">
+                    <span data-width="85" style="width:05%" class="rate">
+                        <span class="num"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">windows</div>
+                <div class="skill-progress">
+                    <span data-width="65" style="width:0%" class="rate">
+                        <span class="num"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Team Leader</div>
+                <div class="skill-progress">
+                    <span data-width="75" style="width:0%" class="rate">
+                        <span class="num"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spikes"></div>
+
+    <!-- End our-skills  -->
+    <div class="gallery" id="gallery">
+        <h2 class="main-heading">Our <span>Gallery</span></h2>
+        <div class="container">
+            <div class="imges-box">
+                <img src="imgs/gallery1.png" alt="Iamge one">
+                <img src="imgs/gallery2..jpg" alt="Iamge two">
+                <img src="imgs/gallery3.png" alt="Iamge three">
+                <img src="imgs/gallery4.jpg" alt="Iamge four">
+                <img src="imgs/gallery5.png" alt="Iamge five">
+                <img src="imgs/gallery6.png" alt="">
+                <img src="imgs/gallery7.png" alt="">
+                <img src="imgs/gallery8.png" alt="">
+                <img src="imgs/gallery9.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- strat timeline  -->
+    <div class="spikes"></div>
+
+    <div class="timeLine" id="timeLine">
+        <h2 class="main-heading">Time <span>Line</span></h2>
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus deserunt deleniti iusto,
+                            corrupti deserunt, aperiam vitae ratione ullam.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus deserunt deleniti iusto,
+                            corrupti deserunt, aperiam vitae ratione ullam.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="timeline-content">
+                <div class="year">2023</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus deserunt deleniti iusto,
+                            corrupti deserunt, aperiam vitae ratione ullam.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus deserunt deleniti iusto,
+                            corrupti deserunt, aperiam vitae ratione ullam.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- end timeline  -->
+    <div class="spikes"></div>
+
+    <!-- start Our Features -->
+    <div class="feature" id="Feature">
+        <h2 class="main-heading">Our <span>Features</span></h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="imgs/Icon_01.png" alt="">
+                <h4>Programmer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    maiores excepturi velit </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_02.png" alt="">
+                <h4>Programmer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    maiores excepturi velit </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_03.png" alt="">
+                <h4>Programmer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    maiores excepturi velit </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_04.png" alt="">
+                <h4>Programmer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    maiores excepturi velit </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_05.png" alt="">
+                <h4>Programmer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    maiores excepturi velit </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_06.png" alt="">
+                <h4>Programmer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    maiores excepturi velit </p>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- end Our Features -->
+    <!-- <div class="spikes"></div> -->
+
+    <!-- start testimonials -->
+    <div class="testimonials">
+        <h2 class="main-heading">Testimonials</h2>
+        <div class="container">
+            <div class="ts-box">
+                <div class="info">
+                    <img src="imgs/avatar-03.png" alt="">
+                    <h4>Mohamed Moslam</h4>
+                    <p>Alaqsa University</p>
+                    <span>I am very happy to deal with this person</span>
+                </div>
+            </div>
+            <div class="ts-box">
+                <div class="info">
+                    <img src="imgs/avatar-05.png" alt="">
+                    <h4>Yunus Khaled</h4>
+                    <p>UCS Company</p>
+                    <span>Very good and reasonable price</span>
+
+                </div>
+            </div>
+            <div class="ts-box">
+                <div class="info">
+                    <img src="imgs/avatar-06.png" alt="">
+                    <h4>Jamal Abdu AlRahman</h4>
+                    <p>Jamal Web Site</p>
+                    <span>punctual I am happy to deal with him</span>
+                </div>
+            </div>
+            <div class="ts-box">
+                <div class="info">
+                    <img src="imgs/avatar-06.png" alt="">
+                    <h4>Jamal Abdu AlRahman</h4>
+                    <p>Jamal Web Site</p>
+                    <span>punctual I am happy to deal with him</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- end testimonials -->
+    <!-- strat contact us  -->
+    <div class="contact-us">
+        <h2 class="main-heading">Contact <span>Us</span></h2>
+        <div class="overlay"></div>
+        <div class="container">
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="userName">
+                    <input type="text" placeholder="Your phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="Email">
+                    <input type="text" placeholder="Subject" name="Subject">
+
+                </div>
+                <div class="right">
+                    <textarea name="Massage" placeholder="Your Massage"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100022618519064" target="_blank"
+                        class="facebook"><i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/+970599923041" target="_blank" class="whatsapp"><i
+                            class="fab fa-whatsapp"></i> </a>
+
+                </li>
+                <li>
+                    <a href="https://youtube.com/@user-lf6oy5cq8s" target="_blank " class="youtube"><i
+                            class="fab fa-youtube"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mahmood.32004/" target="_blank" class="instagram"><i
+                            class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- End contact us  -->
+    <!-- Start footer -->
+    <footer>
+        <div class="container">
+            &copy; Mahmood Aqaad
+        </div>
+
+    </footer>
+
+    <!-- end footer -->
+    <script src=" js/main.js"></script>
+</body>
+
+</html>
